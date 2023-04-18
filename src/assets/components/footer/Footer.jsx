@@ -24,8 +24,8 @@ const Footer = () => {
         <li><a href="#contact ">Contact </a></li>
       </ul>
       <ul className="allLinks">
-        <li><a href="https://projects.pradumdubey.in" className='btn1' target="_blank" rel="noreferrer">All Projects</a></li>
-        <li><a href="https://certificates.pradumdubey.in" className='btn1' target="_blank" rel="noreferrer">All Certificates</a></li>
+        <li><a href="https://akashpradum.github.io/All-Webpages/" className='btn1' target="_blank" rel="noreferrer">All Projects</a></li>
+        <li><a href="https://akashpradum.github.io/Certificate/" className='btn1' target="_blank" rel="noreferrer">All Certificates</a></li>
       </ul>
       <div className="footer_socials">
         <a href="https://www.facebook.com/profile.php?id=100004863979450" target="_blank" rel="noreferrer"><FaFacebookF /></a>

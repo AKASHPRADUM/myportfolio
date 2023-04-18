@@ -20,35 +20,35 @@ const portfolioData = [
     imgalt: "Img 2",
     name: "House Sell Page",
     link1: "https://github.com/AKASHPRADUM/No.1-pratice-House-Sell-Page.git",
-    link2: "https://house.pradumdubey.in"
+    link2: "https://akashpradum.github.io/No.1-pratice-House-Sell-Page/"
   },
   {
     imgsrc: IMG3,
     imgalt: "Img 3",
     name: "Analog and Digital Clock",
     link1: "https://github.com/AKASHPRADUM/Analog-and-Digital-Clock.git",
-    link2: "https://clock.pradumdubey.in"
+    link2: "https://akashpradum.github.io/Analog-and-Digital-Clock/"
   },
   {
     imgsrc: IMG4,
     imgalt: "Img 4",
     name: "Drum Kit",
     link1: "https://github.com/AKASHPRADUM/Drum-Kit.git",
-    link2: "http://drum-kit.pradumdubey.in"
+    link2: "https://akashpradum.github.io/Drum-Kit/"
   },
   {
     imgsrc: IMG5,
     imgalt: "Img 5",
     name: "Survey Form",
     link1: "https://github.com/AKASHPRADUM/No.3-Servay-Form.git",
-    link2: "https://servay.pradumdubey.in"
+    link2: "https://akashpradum.github.io/No.3-Servay-Form/"
   },
   {
     imgsrc: IMG6,
     imgalt: "Img 6",
     name: "Style Confrence",
     link1: "https://github.com/AKASHPRADUM/Style-Confrance.git",
-    link2: "https://confrence.pradumdubey.in"
+    link2: "https://akashpradum.github.io/Style-Confrance/"
   }
 ];
 const Portfolio = () => {
