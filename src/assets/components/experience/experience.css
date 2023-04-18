@@ -1,0 +1,96 @@
+.experience_container {
+    display: flex;
+    gap: 2rem;
+    justify-content: center;
+    margin-top: 7rem;
+}
+
+.experience_container>div {
+    background: var(--color-bg-variant);
+    padding: 1.4rem 3rem 1rem 3rem;
+    border-radius: 2rem;
+    border: 1px solid transparent;
+    transition: var(--transition);
+}
+
+.experience_container>div:hover {
+    background: transparent;
+    border-color: var(--color-primary-variant);
+    cursor: default;
+}
+
+.experience_container>div h3 {
+    text-align: center;
+    margin-bottom: 2rem;
+    color: var(--color-primary);
+}
+
+.experience_content {
+    display: flex;
+    gap: 2rem 4rem;
+    flex-wrap: wrap;
+    margin: 2rem 0 2rem;
+}
+
+.experience_detail {
+    display: flex;
+    gap: 1rem;
+    flex-direction: row;
+    width: 7.5rem;
+}
+
+.experience_frontend {
+    width: 50%;
+}
+
+.experience_backend {
+    width: 50%;
+}
+
+.experience_detail_icon {
+    color: var(--color-primary);
+}
+cubeArea{
+    margin: auto;
+}
+
+.spinText {
+    margin-bottom: 3rem;
+    font-size: 1.3rem;
+    color: var(--color-light)
+}
+
+
+/* ########################## Media Query medium Device ######################### */
+@media screen and (max-width: 1024px) {
+    .experience_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .experience_frontend {
+        width: 75%;
+    }
+    .experience_backend {
+        width: 75%;
+    }
+    .scene{
+        display: none !important;
+    }
+}
+
+/* ########################## Media Query Small Device ######################### */
+@media screen and (max-width: 600px) {
+    .experience_container{
+        flex-direction: column;
+        align-items: center;
+    }
+    .experience_frontend {
+        width: 90%;
+    }
+    .experience_backend {
+        width: 90%;
+    }
+    .scene{
+        display: none !important;
+    }
+}
