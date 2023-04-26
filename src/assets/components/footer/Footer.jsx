@@ -32,7 +32,7 @@ const Footer = () => {
         <a href="https://www.instagram.com/pradum_kymar_dubey/" target="_blank" rel="noreferrer"><FiInstagram /></a>
         <a href="https://www.twitter.com/intent/tweet?screen_name=Pradum12613076" target="_blank" rel="noreferrer"><IoLogoTwitter /></a>
       </div>
-      <div className="footer_copyright">copyright</div>
+      <div className="footer_copyright">copyright Pradum</div>
     </footer>
   )
 }
